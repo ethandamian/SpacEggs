@@ -12,10 +12,12 @@ export function PopularPackages({imagen,text}){
       }}
       >
       </img>
-      <div className="detalles">
+      <div className="flex">
+      <button className="detalles">
         detalles
-      </div>
+      </button>
       {text}$
+      </div>
     </div>
   )
 }

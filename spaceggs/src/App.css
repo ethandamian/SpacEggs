@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: black;
 }
 
 .logo {
@@ -43,18 +44,24 @@
 
 .box{
   width: 200px;
-    height: 300px;
+    height: 250px;
     border-radius: 10%;
     background: white;
 }
-
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
 .detalles{
-  width: 80px;
-    height: 30px;
-    border-radius: 10%;
-    background: #302451;;
-    margin: 15px;
-    color: #FFF;
-    font-size: small;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  height: 36px;
+  width: 100px;
+  border: none;
+  background: #302451;
+  border-radius: 20px;
+  cursor: pointer;
 }
