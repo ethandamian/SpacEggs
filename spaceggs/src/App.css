@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+.box{
+  width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    background: white;
+}
+
+.detalles{
+  width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    background: #302451;;
+    margin: 15px;
+    color: #FFF;
+    font-size: small;
+
+}
